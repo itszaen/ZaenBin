@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "ifconfig is deprecated in Arch Linux. Use ip instead."
