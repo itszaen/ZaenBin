@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -rf /home/zaen/.local/share/Trash/files
+mkdir /home/zaen/.local/share/Trash/files
+if [ "$(whoami)" == "root" ]; then
+	chown zaen /home/zaen/.local/share/Trash/files
+fi

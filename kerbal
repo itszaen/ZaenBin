@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -r ~/.config/unity3d/Squad ~/.config/unity3d/SQUAD
+
+cd /home/zaen/.local/share/Steam/steamapps/common/'Kerbal Space Program'
+LC_ALL=C ./KSP.x86_64 -force-glcore33
