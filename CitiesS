@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -r ~/.config/unity3d/'Colossal Order'
+
+cd /home/zaen/.local/share/Steam/steamapps/common/Cities_Skylines
+./Cities.x64

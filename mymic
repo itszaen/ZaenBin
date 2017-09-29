@@ -1,0 +1,14 @@
+#!/bin/bash
+if [[ "$1" == "usb" ]]; then
+cat <<EOF1 > ~/.asoundrc
+defaults.pcm.card 2
+defaults.pcm.device 0
+defaults.ctl.card 2
+EOF1
+else
+cat <<EOF2 > ~/.asoundrc
+defaults.pcm.card 1
+defaults.pcm.device 0
+defaults.ctl.card 1
+EOF2
+fi
