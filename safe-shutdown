@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 'shutting down safely...'
+emacsclient -e "(save-buffers-kill-emacs)"
+poweroff
